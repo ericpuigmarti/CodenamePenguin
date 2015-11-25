@@ -1,0 +1,14 @@
+/*
+* Style CSS
+*/
+
+header {
+	/*background: #b4d455;*/
+	background: #0C83DD;
+    padding: 10px 18px;
+}
+header li {
+	float: left;
+	list-style-type: none;
+	margin-left: 2em;
+}
