@@ -31,7 +31,8 @@
 .container {
   position: relative;
   width: 100%;
-  max-width: 960px;
+  /*max-width: 960px;*/
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
@@ -40,33 +41,30 @@
   width: 100%;
   float: left;
   box-sizing: border-box; }
-
 .example-grid {
     background: #EEE;
     text-align: center;
     border-radius: 4px;
-    font-size: 1rem;
+    /*font-size: 1rem;*/
     text-transform: uppercase;
     height: 30px;
     line-height: 30px;
     margin-bottom: .75rem;
     font-weight: 600;
-    letter-spacing: .1rem;
-}
-
+    letter-spacing: .1rem;}
 .example-container {
     background: #DDD;
     text-align: center;
     border-radius: 4px;
-    font-size: 1rem;
+    /*font-size: 1rem;*/
     text-transform: uppercase;
     height: 30px;
     line-height: 30px;
     margin-bottom: .75rem;
     font-weight: 600;
-    letter-spacing: .1rem;
-}
-
+    letter-spacing: .1rem;} 
+.pad_left {
+  padding-left: 12px;}
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
@@ -184,7 +182,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #1EAEDB;
+  text-decoration: none;
+ }
 a:hover {
   color: #0FA0CE; }
 
