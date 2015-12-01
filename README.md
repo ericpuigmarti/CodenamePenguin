@@ -1,3 +1,3 @@
-# UXresearchPenguin
+# CodenamePenguin
 
 - ref http://casestudy.club/
